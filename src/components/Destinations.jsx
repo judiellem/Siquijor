@@ -18,7 +18,7 @@ const Destinations = () => {
   return (
     <section className='container px-4 flex flex-col items-center my-16'>
       <h2 id="Destination" className='mb-4'>Siquijor's Wonders</h2>
-      <p className='mb-8 font-bold'>One of the Best Beaches in the Philippines</p>
+      <p className='mb-8 font-bold'>One of the Destinations in the Philippines</p>
       <div className='grid grid-cols-2 md:grid-cols-5 gap-4'>
         <div className='col-span-2 md:col-span-3 md:row-span-2'>
           <img
