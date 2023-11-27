@@ -1,7 +1,9 @@
 import React from 'react';
 
-import lugnason from '../assets/lugnason.jpg';
-import snorkelling from '../assets/snorkelling.jpg';
+import Foods from '../assets/Foods.jpg';
+import Celebrations from '../assets/Celebrations.jpg';
+import locations from '../assets/locations.png';
+import Hotspots from '../assets/Hotspots.jpg';
 
 const Attractions = () => {
   return (
@@ -18,20 +20,29 @@ const Attractions = () => {
           <div className='grid grid-cols-12 mb-4'>
             <div className='col-span-6'>
               <h4 className='uppercase font-extrabold mb-2 text-xl md:text-2xl'>
-                Attractions
+                Locations
               </h4>
               <div className='flex'>
-                Trekking is one of the best exercises in Siquijor
+                Paliton Beach - San Juan, Siquijor <br />
+                San Agustin of Hippo Church - 6227 San Juan, Siquijor <br />
+                Lugnason Falls - Barangay Napo, San Juan, Siquijor <br />
+                Old Enchanted Balete Tree - Siquijor Circumferential Road, Lazi, Siquijor <br />
+                Lazi Church - Siquijor Circumferential Road, 6228 Lazi, Siquijor <br />
+                Lazi Convent - Siquijor CIrcumferential Road, 6228 Lazi, Siquijor <br />
+                Lagaan Falls - Lazi, Siquijor <br />
+                Hapitanan Beach - Siquijor Circumferential Road, Lazi, Siquijor <br />
+                Cambugahay Falls - 4JQG+XM3, Siquijor Circumferential Road, Lazi, Siquijor <br />
+                Salagdoong Beach - Barangay Olang, Maria, Siquijor <br />
+                Butterfly Sanctuary - 5JR3+M33, Lazi, Siquijor <br />
+                Cantabon Cave - Barangay Cantabon, Siquijor, Siquijor <br />
+                Tulapos Marine Sanctuary - 7JMR+MV6, Siquijor Circumferential Road, Enrique Villanueva, Siquijor <br />
               </div>
             </div>
             <div className='col-span-6'>
               <div className='flex flex-col'>
-                <h4 className='uppercase font-extrabold mb-2 text-xl md:text-2xl'>
-                  Location
-                </h4>
                 <div className='flex'>
-                  <img src={lugnason} alt='lugnason' className='w-16 h-16 md:w-2/3 md:h-2/3 rounded-lg mr-2' />
-                  <img src={lugnason} alt='lugnason' className='w-16 h-16 md:w-2/3 md:h-2/3 rounded-lg mr-2' />
+                  <img src={locations} alt='locations' className='w-16 h-16 md:w-2/3 md:h-2/3 rounded-lg mr-2' />
+
                 </div>
               </div>
             </div>
@@ -42,20 +53,24 @@ const Attractions = () => {
           <div className='grid grid-cols-12 mb-4'>
             <div className='col-span-6'>
               <h4 className='uppercase font-extrabold mb-2 text-xl md:text-2xl'>
-                Attractions
+                Hotspots
               </h4>
               <div className='flex'>
-                Trekking is one of the best exercises in Siquijor
+                Hiking & Trekking - Red <br />
+                Snorkeling - Yellow <br />
+                Cliff Jumping - Blue <br />
+                Rope Climbing - Green <br />
+                Skydiving - Violet <br />
               </div>
             </div>
             <div className='col-span-6'>
               <div className='flex flex-col'>
-                <h4 className='uppercase font-extrabold mb-2 text-xl md:text-2xl'>
-                  Location
-                </h4>
-                <div className='flex'>
-                  <img src={lugnason} alt='lugnason' className='w-16 h-16 md:w-2/3 md:h-2/3 rounded-lg mr-2' />
-                  <img src={lugnason} alt='lugnason' className='w-16 h-16 md:w-2/3 md:h-2/3 rounded-lg mr-2' />
+                <div className='col-span-6'>
+                  <div className='flex flex-col'>
+                    <div className='flex'>
+                      <img src={Hotspots} alt='Hotspots' className='w-16 h-16 md:w-2/3 md:h-2/3 rounded-lg mr-2' />
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
@@ -65,25 +80,64 @@ const Attractions = () => {
           <div className='grid grid-cols-12 mb-4'>
             <div className='col-span-6'>
               <h4 className='uppercase font-extrabold mb-2 text-xl md:text-2xl'>
-                Snorkling
+                Food Delicacies
               </h4>
               <div className='flex'>
-                There are lots of great snorkel spots dotted the whole way around the island.
-                I simply suggest hiring your own snorkel gear and trying different spots you can find.
-                I know that you can go with a company who will take you on a boat to coral reefs,
-                so if you want guaranteed fish, then perhaps organise a tour.  Again, there are a variety of
-                tour agencies popping up on Siqiujor, but if you're struggling, ask your hotel/hostel for advice.
-                It's such as small island that everyone knows someone!
+                Sutukil - 102 Siquijor Circumferential Road, Larena, Siquijor<br />
+                Law-Uy sa Baruto - San Juan, Maite, Siquijor, 6227 Siquijor<br />
+                Saang sa Alat - Barangay Road, Larena, Siquijor<br />
+                Saluwaki - Upper Cambugahay Road, Lazi 6228 Siquijor<br />
+                Binas-oy - 5FFG+7G7, San Juan, Siquijor<br />
+                Pan Bisaya - 7M82+9FM, Enrique Villanueva, Siquijor<br />
+                Giant Otap - 7JHW+54X, Talingting, Old National Highway, Enrique Villanueva<br />
+                Fruit Wine - Ayra Fruit Wine, 7JX7+R4 Enrique Villanueva, Siquijor<br />
+                Siquijor’s Tablea - Larena 6226, Siquijor<br />
+                Peanut Balls - 6G77+FFF, Siquijor<br />
+                Kan oy Bisaya - 6G76+3XJ, Siquijor, Circumferential Road, Siquijor<br />
+                Pancit Molo - 6G76+5XJ, Siquijor, Circumferential Road, Siquijor<br />
+                Palagsing - Siquijor, 6225, Siquijor<br />
+                Hinalo - Siquijor, 6225 Siquijor<br />
+                Peanut Crunch - 6HF6+6FJ, Siquijor<br />
+                Nilagpang na Bangus - Siquijor, 6225 Siquijor<br />
               </div>
             </div>
             <div className='col-span-6'>
               <div className='flex flex-col'>
                 <div className='flex'>
-                  <img src={snorkelling} alt='snorkelling' className='w-16 h-16 md:w-2/3 md:h-2/3 rounded-lg mr-2' />
+                  <img src={Foods} alt='snorkelling' Foods='w-16 h-16 md:w-2/3 md:h-2/3 rounded-lg mr-2' />
                 </div>
               </div>
             </div>
           </div>
+
+
+          {/* Fourth set of attractions */}
+          <div className='grid grid-cols-12 mb-4'>
+            <div className='col-span-6'>
+              <h4 className='uppercase font-extrabold mb-2 text-xl md:text-2xl'>
+                Celebrations
+              </h4>
+              <div className='flex'>
+                Bugwas Festival <br />
+                Solili Festival <br />
+                Dilaab Festival<br />
+                Pamukad Festival<br />
+                Canoan Festival<br />
+                Saging Festival<br />
+                Lubi Festival<br />
+                Healing Festival<br />
+              </div>
+            </div>
+            <div className='col-span-6'>
+              <div className='flex flex-col'>
+                <div className='flex'>
+                  <img src={Celebrations} alt='Celebrations' Foods='w-16 h-16 md:w-2/3 md:h-2/3 rounded-lg mr-2' />
+                </div>
+              </div>
+            </div>
+          </div>
+
+
         </div>
       </div>
     </section>
