@@ -1,9 +1,19 @@
 /** @type {import('tailwindcss').Config} */
-export default {
-  content: [],
-  theme: {
-    extend: {},
-  },
-  plugins: [],
-}
-
+module.exports = {
+	content: ["./index.html", "./src/**/*.{js,jsx}"],
+	mode: "jit",
+	theme: {
+		extend: {
+			colors: {
+				primary: {
+					100: "#709dff",
+					200: "#5651e5",
+				},
+			},
+			fontFamily: {
+				poppins: ["Poppins", "sans-serif"],
+			},
+		},
+	},
+	plugins: [],
+};
