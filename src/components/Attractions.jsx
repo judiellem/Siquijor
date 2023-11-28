@@ -2,7 +2,7 @@ import React from 'react';
 
 import Foods from '../assets/Foods.jpg';
 import Celebrations from '../assets/Celebrations.jpg';
-import locations from '../assets/locations.png';
+import locations from '../assets/locations.jpg';
 import Hotspots from '../assets/Hotspots.jpg';
 
 const Attractions = () => {
