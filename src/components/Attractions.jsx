@@ -42,14 +42,11 @@ const Attractions = () => {
               <div className='flex flex-col'>
                 <div className='flex'>
                   <img src={locations} alt='locations' className='w-16 h-16 md:w-2/3 md:h-2/3 rounded-lg mr-2' />
-
                 </div>
               </div>
             </div>
           </div>
 
-
-          {/* Second set of attractions */}
           <div className='grid grid-cols-12 mb-4'>
             <div className='col-span-6'>
               <h4 className='uppercase font-extrabold mb-2 text-xl md:text-2xl'>
@@ -136,8 +133,6 @@ const Attractions = () => {
               </div>
             </div>
           </div>
-
-
         </div>
       </div>
     </section>
