@@ -16,7 +16,7 @@ const Attractions = () => {
 
           <p className='mb-10 text-gray-600 text-justify'></p>
 
-          {/* First set of attractions */}
+
           <div className='grid grid-cols-12 mb-4'>
             <div className='col-span-6'>
               <h4 className='uppercase font-extrabold mb-2 text-xl md:text-2xl'>
@@ -73,7 +73,7 @@ const Attractions = () => {
             </div>
           </div>
 
-          {/* Third set of attractions */}
+
           <div className='grid grid-cols-12 mb-4'>
             <div className='col-span-6'>
               <h4 className='uppercase font-extrabold mb-2 text-xl md:text-2xl'>
@@ -108,7 +108,7 @@ const Attractions = () => {
           </div>
 
 
-          {/* Fourth set of attractions */}
+
           <div className='grid grid-cols-12 mb-4'>
             <div className='col-span-6'>
               <h4 className='uppercase font-extrabold mb-2 text-xl md:text-2xl'>
