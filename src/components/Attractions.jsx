@@ -3,7 +3,7 @@ import React from 'react';
 import Foods from '../assets/Foods.jpg';
 import Celebrations from '../assets/Celebrations.jpg';
 import locations from '../assets/locations.jpg';
-import Hotspots from '../assets/locations.jpg';
+import Hotspots_new from '../assets/Hotspots_new.jpg';
 
 const Attractions = () => {
   return (
@@ -65,7 +65,7 @@ const Attractions = () => {
                 <div className='col-span-6'>
                   <div className='flex flex-col'>
                     <div className='flex'>
-                      <img src={Hotspots} alt='Hotspots' className='w-16 h-16 md:w-2/3 md:h-2/3 rounded-lg mr-2' />
+                      <img src={Hotspots_new} alt='Hotspots_new' className='w-16 h-16 md:w-2/3 md:h-2/3 rounded-lg mr-2' />
                     </div>
                   </div>
                 </div>
