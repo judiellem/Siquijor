@@ -10,7 +10,7 @@ const Attractions = () => {
     <section className='container'>
       <div className='grid grid-cols-12 gap-4'>
         <div className='col-span-12'>
-          <h3 className='uppercase font-extrabold mb-4 text-3xl md:text-4xl'>
+          <h3 className='uppercase font-extrabold mb-4 text-3xl md:text-4xl' id='Travel'>
             Things TO DO
           </h3>
 
