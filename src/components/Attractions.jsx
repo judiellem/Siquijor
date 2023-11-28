@@ -91,7 +91,7 @@ const Attractions = () => {
                 Pan Bisaya - 7M82+9FM, Enrique Villanueva, Siquijor<br />
                 Giant Otap - 7JHW+54X, Talingting, Old National Highway, Enrique Villanueva<br />
                 Fruit Wine - Ayra Fruit Wine, 7JX7+R4 Enrique Villanueva, Siquijor<br />
-                Siquijor’s Tablea - Larena 6226, Siquijor<br />
+                Siquijors Tablea - Larena 6226, Siquijor<br />
                 Peanut Balls - 6G77+FFF, Siquijor<br />
                 Kan oy Bisaya - 6G76+3XJ, Siquijor, Circumferential Road, Siquijor<br />
                 Pancit Molo - 6G76+5XJ, Siquijor, Circumferential Road, Siquijor<br />
